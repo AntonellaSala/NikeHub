@@ -55,9 +55,11 @@ def simulation(nsteps):
 #%%
     
 # inizio programma
+# sezione di input
 tipo_bordo = int(input("1-> fisso punto\n2-> fisso zero\n3-> circolare\n4-> riflesso\nSe valore errato -> default fisso punto\nInput tipo bordo: "))
 if tipo_bordo <1 or tipo_bordo>4: tipo_bordo=1
 iterazioni = int(input("\nNumero iterazioni: "))
+# esecuzione simulazione
 simulation(iterazioni)
 #%%
 
